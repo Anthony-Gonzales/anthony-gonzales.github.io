@@ -74,6 +74,19 @@ input, select, textarea {
 
 /* Basic */
 
+	.image-row {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 20px;
+	}
+
+	.image-row img {
+		max-width: 30%; /* Adjust as needed */
+		height: auto;
+		border: 2px solid #ccc; /* Optional: to see the image boundaries */
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
