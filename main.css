@@ -74,6 +74,18 @@ input, select, textarea {
 
 /* Basic */
 
+	.center-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh; /* Optional: makes the image vertically centered on full viewport height */
+	}
+
+	.center-image img {
+		max-width: 100%; /* Adjust to fit within the container */
+		height: auto;
+	}
+
 	.image-row {
 		display: flex;
 		justify-content: space-evenly;
